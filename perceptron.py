@@ -1,5 +1,5 @@
 import numpy as np
-
+from sklearn.linear_model import Perceptron
 def perceptron(dataArray,labelArray,time):
     dataMatrix=np.matrix(dataArray)
     labelMatrix=np.matrix(labelArray).T
